@@ -6,6 +6,6 @@ namespace REALMod
     {
         public float x;
         public float y;
-        public float size;
+        public bool destructible;
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace REALMod
 {
@@ -26,7 +25,17 @@ namespace REALMod
             e2.moveSpeed = 4;
             e2.dead = false;
             
-            List<Platform> platforms = new List<Platform>();
+            Platform platform1 = new Platform();
+            Platform platform2 = new Platform();
+
+            platform1.x = 5;
+            platform1.y = 7;
+            platform1.destructible = false;
+
+
+            platform2.x = 10;
+            platform2.y = 12;
+            platform2.destructible = true;
 
             Console.ReadLine();
 
